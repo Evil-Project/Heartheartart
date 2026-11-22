@@ -1,0 +1,10 @@
+.venv
+.git
+.ruff_cache
+.vscode
+frontend
+temp
+**/__pycache__
+**/*.py[oc]
+.env
+*.md

@@ -221,3 +221,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project secrets and local configuration
+# Keep the tracked .env.example files, ignore every other .env file.
+.env
+.env.*
+!.env.example
+
+# Runtime artifacts
+temp/
+
+# The Python packaging rules above ignore lib/; keep the frontend sources.
+!frontend/lib/
+
+# OS noise
+.DS_Store
