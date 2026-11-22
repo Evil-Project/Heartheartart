@@ -8,3 +8,5 @@ temp
 **/*.py[oc]
 .env
 *.md
+# pyproject.toml points readme at README.md, so the build needs this one file.
+!README.md
